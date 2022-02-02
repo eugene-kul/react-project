@@ -1,0 +1,29 @@
+.AuthStatus div {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color:aliceblue;
+}
+
+.AuthStatus a {
+	background-color: rgba(105,107,100,0.72);
+	padding: 2px 10px;
+	line-height: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 12px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 5px;
+	color:aliceblue;
+}
+
+.AuthStatus a:hover {
+	background-color: rgba(205,77,100,0.72);
+}
+
+.AuthStatus span {
+	display: inline-block;
+	padding: 0 5px;
+	font-size: 14px;
+	font-weight: 700;
+}

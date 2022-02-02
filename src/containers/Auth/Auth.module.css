@@ -1,0 +1,28 @@
+.Auth {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+	flex-grow: 1;
+	width: 100%;
+	background: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%);
+}
+
+.Auth h1 {
+	color: aliceblue;
+}
+
+.Auth form {
+	background: rgba(30,130,230,0.37);
+	padding: 15px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+}
+
+.buttonBody {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
